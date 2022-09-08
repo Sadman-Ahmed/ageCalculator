@@ -69,20 +69,5 @@ public class AgeCalculation {
     public String getResult() {
         return resYear + " Years, " + resMonth + " Months, " + resDay + " Days.";
     }
-
-//    public long getSeconde() {
-//        start = Calendar.getInstance();
-//        start.set(Calendar.YEAR, startYear);
-//        start.set(Calendar.MONTH, startMonth);
-//        start.set(Calendar.DAY_OF_MONTH, startDay);
-//        start.set(Calendar.HOUR, 12);
-//        start.set(Calendar.MINUTE, 30);
-//        start.set(Calendar.SECOND, 30);
-//        start.set(Calendar.MILLISECOND, 30);
-//        long now = end.getTimeInMillis();
-//        long old = start.getTimeInMillis();
-//        long diff = old - now;
-//        return diff / 1000;
-//    }
 }
 
